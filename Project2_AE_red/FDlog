@@ -1,0 +1,71 @@
+Script started on 2022-11-10 08:18:20+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="147" LINES="33"]
+[?2004h]0;moodi0326@cs400a01: ~/Project2_AE_red[01;32mmoodi0326@cs400a01[00m:[01;34m~/Project2_AE_red[00m$ git status
+[?2004lOn branch FrontendDeveloper
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   IFoodMapperFrontend.java[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mFDFoodMapperBackend.class[m
+	[31mFDFoodMapperBackend.java[m
+	[31mFood.java[m
+	[31mFoodMapperFrontend.class[m
+	[31mFoodMapperFrontend.java[m
+	[31mFrontDeveloperTests.class[m
+	[31mFrontDeveloperTests.java[m
+	[31mIFood.class[m
+	[31mIFoodMapperBackend.class[m
+	[31mIFoodMapperFrontend.class[m
+	[31mMakefile[m
+	[31mTextUITester.class[m
+	[31mTextUITester.java[m
+	[31mjunit5.jar[m
+	[31mjunit5.jar.1[m
+	[31mlog[m
+
+[?2004h]0;moodi0326@cs400a01: ~/Project2_AE_red[01;32mmoodi0326@cs400a01[00m:[01;34m~/Project2_AE_red[00m$ git log -1
+[?2004l[?1h=[33mcommit 3578012995eb12a6912b89d76cfa4eab51dbd159[m[33m ([m[1;36mHEAD -> [m[1;32mFrontendDeveloper[m[33m)[m[m
+Author: Nikita Agarwal <nagarwal29@wisc.edu>[m
+Date:   Thu Oct 20 01:28:46 2022 +0000[m
+[m
+    Added interfaces for algorithm engineer[m
+[K[?1l>[?2004h]0;moodi0326@cs400a01: ~/Project2_AE_red[01;32mmoodi0326@cs400a01[00m:[01;34m~/Project2_AE_red[00m$ ls
+[?2004lFDFoodMapperBackend.class  FoodMapperFrontend.java    IFoodLoader.java           IFoodValidator.java             TextUITester.java
+FDFoodMapperBackend.java   FrontDeveloperTests.class  IFoodMapperBackend.class   Makefile                        fooditems.xml
+Food.java                  FrontDeveloperTests.java   IFoodMapperBackend.java    RedBlackTreeADT.java            [0m[01;31mjunit5.jar[0m
+FoodMapper.java            IFood.class                IFoodMapperFrontend.class  SortedCollectionInterface.java  junit5.jar.1
+FoodMapperFrontend.class   IFood.java                 IFoodMapperFrontend.java   TextUITester.class              log
+[?2004h]0;moodi0326@cs400a01: ~/Project2_AE_red[01;32mmoodi0326@cs400a01[00m:[01;34m~/Project2_AE_red[00m$ make runTR[Kestss[K
+[?2004ljava -jar junit5.jar --class-path=. --include-classname=.* --select-class=FrontDeveloperTests
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m└─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m   └─[0m [36mFrontDeveloperTests[0m [32m✔[0m
+[36m      ├─[0m [34mtest1[0m [32m✔[0m
+[36m      ├─[0m [34mtest2[0m [32m✔[0m
+[36m      ├─[0m [34mtest3[0m [32m✔[0m
+[36m      ├─[0m [34mtest4[0m [32m✔[0m
+[36m      └─[0m [34mtest5[0m [32m✔[0m
+
+Test run finished after 127 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+[?2004h]0;moodi0326@cs400a01: ~/Project2_AE_red[01;32mmoodi0326@cs400a01[00m:[01;34m~/Project2_AE_red[00m$ exit
+[?2004lexit
+
+Script done on 2022-11-10 08:18:50+00:00 [COMMAND_EXIT_CODE="0"]

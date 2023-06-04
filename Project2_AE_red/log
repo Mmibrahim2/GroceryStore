@@ -1,0 +1,228 @@
+
+Script started on 2022-11-09 23:17:24+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="111" LINES="39"]
+[?2004h]0;rithesh@instance-1: ~/Project2_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project2_AE_red[00m$ [7mgit status[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status
+[A
+[?2004lOn branch DataWrangler
+Your branch is up to date with 'origin/DataWrangler'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    DataWranglerTester.java[m
+	[31mdeleted:    FoodMapper.java[m
+	[31mdeleted:    IFoodMapperBackend.java[m
+	[31mdeleted:    IFoodValidator.java[m
+	[31mdeleted:    RedBlackTreeADT.java[m
+	[31mdeleted:    SortedCollectionInterface.java[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlog[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;rithesh@instance-1: ~/Project2_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project2_AE_red[00m$ [7mgit log -1[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit log -1
+[A
+[?2004l[?1h=[33mcommit 3492346ef9a6214f5b76341348d7e2d087b9c95b[m[33m ([m[1;36mHEAD -> [m[1;32mDataWrangler[m[33m, [m[1;31morigin/DataWrangler[m[33m)[m[m
+Author: Suyog <rithesh@wisc.edu>[m
+Date:   Wed Nov 9 22:35:51 2022 +0000[m
+[m
+    Changed makefile[m
+[K[?1l>[?2004h]0;rithesh@instance-1: ~/Project2_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project2_AE_red[00m$ [7mmake clean[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake clean
+[A
+[?2004lrm *.class
+rm: cannot remove '*.class': No such file or directory
+make: *** [Makefile:11: clean] Error 1
+[?2004h]0;rithesh@instance-1: ~/Project2_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project2_AE_red[00m$ ls
+[?2004lDataWranglerTests.java  FoodLoader.java  IFoodLoader.java  fooditems.xml  log
+Food.java               IFood.java       Makefile          [0m[01;31mjunit5.jar[0m
+[?2004h]0;rithesh@instance-1: ~/Project2_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project2_AE_red[00m$ make runTests
+[?2004ljavac Food.java
+javac FoodLoader.java
+javac -cp .:junit5.jar DataWranglerTests.java
+java -jar junit5.jar --class-path=. --include-classname=.* --select-class=DataWranglerTests
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  └─[0m [36mDataWranglerTests[0m [32m✔[0m
+[36m│     ├─[0m [34mDataWranglerTest1()[0m [32m✔[0m
+[36m│     ├─[0m [34mDataWranglerTest2()[0m [32m✔[0m
+[36m│     ├─[0m [34mDataWranglerTest3()[0m [32m✔[0m
+[36m│     ├─[0m [34mDataWranglerTest4()[0m [32m✔[0m
+[36m│     └─[0m [34mDataWranglerTest5()[0m [32m✔[0m
+[36m└─[0m [36mJUnit Vintage[0m [32m✔[0m
+
+Test run finished after 211 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+[?2004h]0;rithesh@instance-1: ~/Project2_AE_red[01;32mrithesh@instance-1[00m:[01;34m~/Project2_AE_red[00m$ exit
+[?2004lexit
+
+Script done on 2022-11-09 23:18:59+00:00 [COMMAND_EXIT_CODE="0"]
+=======
+Script started on 2022-11-10 00:20:07+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="71" LINES="21"]
+[?2004h]0;spmchugh@lecture: ~/CheckSubmit/Project2_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/CheckSubmit/Project2_AE_red[00m$ git status
+[?2004lOn branch BackendDeveloper
+Your branch is ahead of 'origin/BackendDeveloper' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   log[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mBDFood.class[m
+	[31mBackendDeveloperTest.class[m
+	[31mFoodMapperBackend.class[m
+	[31mIFood.class[m
+	[31mIFoodMapperBackend.class[m
+	[31mRedBlackTree$Node.class[m
+	[31mRedBlackTree.class[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;spmchugh@lecture: ~/CheckSubmit/Project2_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/CheckSubmit/Project2_AE_red[00m$ git log -1
+[?2004l[?1h=[33mcommit 3a0a3803dfd10f3673bbf172091db567b890e6aa[m[33m ([m[1;36mHEAD -> [m[1;32mBackendDevelop[m [33m[m[33m[m[1;36m[m[1;32mer[m[33m)[m[m
+Author: Sean McHugh <spmchugh@wisc.edu>[m
+Date:   Thu Nov 10 00:19:44 2022 +0000[m
+[m
+    Made IFood comparable[m
+[K[?1l>[?2004h]0;spmchugh@lecture: ~/CheckSubmit/Project2_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/CheckSubmit/Project2_AE_red[00m$ make clean
+[?2004lrm *.class
+[?2004h]0;spmchugh@lecture: ~/CheckSubmit/Project2_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/CheckSubmit/Project2_AE_red[00m$ ls
+[?2004lBDFood.java                Makefile
+BackendDeveloperTest.java  RedBlackTree.java
+FoodMapper.java            RedBlackTreeADT.java
+FoodMapperBackend.java     SortedCollectionInterface.java
+IFood.java                 fooditems.xml
+IFoodLoader.java           [0m[01;31mjunit5.jar[0m
+IFoodMapperBackend.java    log
+IFoodValidator.java
+[?2004h]0;spmchugh@lecture: ~/CheckSubmit/Project2_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/CheckSubmit/Project2_AE_red[00m$ make runTests
+[?2004ljavac RedBlackTree.java
+javac FoodMapperBackend.java
+Note: FoodMapperBackend.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+javac BDFood.java
+javac -cp .:junit5.jar BackendDeveloperTest.java
+java -jar junit5.jar --class-path=. --include-classname=.* --select-class=BackendDeveloperTest
+
+Script started on 2022-11-09 23:31:08+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="23"]
+[?2004h]0;nagarwal29@instance-1: ~/Project2_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project2_AE_red[00m$ [7mgit status[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status
+[A
+[?2004lOn branch AlgorithmEngineer
+Your branch is up to date with 'origin/AlgorithmEngineer'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mAlgorithmEngineerTests.class[m
+	[31mAlgorithmEngineerTests.java[m
+	[31mMakefile[m
+	[31mRedBlackTree.class[m
+	[31mRedBlackTree.java[m
+	[31mRedBlackTreeADT$Node.class[m
+	[31mRedBlackTreeADT.class[m
+	[31mRedBlackTreeADT.java[m
+	[31mSortedCollectionInterface.class[m
+	[31mSortedCollectionInterface.java[m
+	[31mjunit5.jar[m
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;nagarwal29@instance-1: ~/Project2_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project2_AE_red[00m$ [7mgit log -1[27mgit log -1
+[?2004l[?1h=[33mcommit 6cd0e93194d80b85075f069a9f78baa3b020879b[m[33m ([m[1;36mHEAD -> [m[1;32mAlgorithmEngineer[m[33m, [m[1;31morig[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31min/FrontendDeveloper[m[33m, [m[1;31morigin/BackendDeveloper[m[33m, [m[1;31morigin/AlgorithmEngineer[m[33m)[m[m
+Author: Gary Dahl <dahl@cs.wisc.edu>[m
+Date:   Tue Oct 11 20:04:25 2022 -0500[m
+[m
+    removed all p1 files to make room for new P2 files[m
+[K[?1l>[?2004h]0;nagarwal29@instance-1: ~/Project2_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project2_AE_red[00m$ [7mmake clean[27mmake clean
+[?2004lrm *.class
+[?2004h]0;nagarwal29@instance-1: ~/Project2_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project2_AE_red[00m$ [7mls[27mls
+[?2004lAlgorithmEngineerTests.java  RedBlackTreeADT.java            log
+Makefile                     SortedCollectionInterface.java
+RedBlackTree.java            [0m[01;31mjunit5.jar[0m
+[?2004h]0;nagarwal29@instance-1: ~/Project2_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project2_AE_red[00m$ [7mmake runTests[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake runTests
+[A
+[?2004ljavac -cp .:junit5.jar AlgorithmEngineerTests.java
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+java -jar junit5.jar --class-path=. --include-classname=.* --select-class=AlgorithmEngineerTests
+>>>>>>> AlgorithmEngineer
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+<<<<<<< HEAD
+[36m│  └─[0m [36mBackendDeveloperTest[0m [32m✔[0m
+[36m│     ├─[0m [34mtestOne()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestTwo()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestThree()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestFive()[0m [32m✔[0m
+[36m│     └─[0m [34mtestFour()[0m [32m✔[0m
+[36m└─[0m [36mJUnit Vintage[0m [32m✔[0m
+
+Test run finished after 148 ms
+
+[36m│  └─[0m [36mAlgorithmEngineerTests[0m [32m✔[0m
+[36m│     ├─[0m [34mtest1()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest2()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest3()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest4()[0m [32m✔[0m
+[36m│     └─[0m [34mtest5()[0m [32m✔[0m
+[36m└─[0m [36mJUnit Vintage[0m [32m✔[0m
+
+Test run finished after 135 ms
+
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+
+[?2004h]0;spmchugh@lecture: ~/CheckSubmit/Project2_AE_red[01;32mspmchugh@lecture[00m:[01;34m~/CheckSubmit/Project2_AE_red[00m$ exit
+[?2004lexit
+
+Script done on 2022-11-10 00:20:29+00:00 [COMMAND_EXIT_CODE="0"]
+
+[?2004h]0;nagarwal29@instance-1: ~/Project2_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project2_AE_red[00m$ ls
+[?2004l AlgorithmEngineerTests.class   RedBlackTreeADT.class
+ AlgorithmEngineerTests.java    RedBlackTreeADT.java
+ Makefile                       SortedCollectionInterface.class
+ RedBlackTree.class             SortedCollectionInterface.java
+ RedBlackTree.java              [0m[01;31mjunit5.jar[0m
+'RedBlackTreeADT$Node.class'    log
+[?2004h]0;nagarwal29@instance-1: ~/Project2_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project2_AE_red[00m$ nano log
+[?2004l[?2004h[?1049h[22;0;0t[1;23r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[21;34H(B[0;7m[ Reading... ](B[m[21;32H(B[0;7m[ Read 74 lines ](B[m[H(B[0;7m  GNU nano 6.2                           log                                    [1;79H(B[m[22d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[23d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2dScript started on 2022-11-09 23:31:08+00:00 [TERM="xterm-256color" TTY="/dev/pt(B[0;7m>[3;1H(B[0m[38;5;208m^[[39m(B[m[?2004h[38;5;208m^[[39m(B[m]0;nagarwal29@instance-1: ~/Project2_AE_red[38;5;208m^G^[[39m(B[m[01;32mnagarwal29@ins(B[0;7m>[4;1H(B[0m[38;5;208m^M^[[39m(B[m[A[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[[39m(B[m[C[38;5;208m^[39m(B[0;7m>[5;1H(B[0m[38;5;208m^M^[[39m(B[m[A[6d[38;5;208m^[[39m(B[m[?2004l[38;5;208m^M[39m(B[mOn branch AlgorithmEngineer[7dYour branch is up to date with 'origin/AlgorithmEngineer'.[9dUntracked files:[10;3H(use "git add <file>..." to include in what will be committed)[11;8H[38;5;208m[1K ^[[39m(B[m[31mAlgorithmEngineerTests.class[38;5;208m^[[39m(B[m[m[12;8H[38;5;208m[1K ^[[39m(B[m[31mAlgorithmEngineerTests.java[38;5;208m^[[39m(B[m[m[13;8H[38;5;208m[1K ^[[39m(B[m[31mMakefile[38;5;208m^[[39m(B[m[m[14;8H[38;5;208m[1K ^[[39m(B[m[31mRedBlackTree.class[38;5;208m^[[39m(B[m[m[15;8H[38;5;208m[1K ^[[39m(B[m[31mRedBlackTree.java[38;5;208m^[[39m(B[m[m[16;8H[38;5;208m[1K ^[[39m(B[m[31mRedBlackTreeADT$Node.class[38;5;208m^[[39m(B[m[m[17;8H[38;5;208m[1K ^[[39m(B[m[31mRedBlackTreeADT.class[38;5;208m^[[39m(B[m[m[18;8H[38;5;208m[1K ^[[39m(B[m[31mRedBlackTreeADT.java[38;5;208m^[[39m(B[m[m[19;8H[38;5;208m[1K ^[[39m(B[m[31mSortedCollectionInterface.class[38;5;208m^[[39m(B[m[m[20;8H[38;5;208m[1K ^[[39m(B[m[31mSortedCollectionInterface.java[38;5;208m^[[39m(B[m[m[2d[?12l[?25h[?25l[21d[J[23d[?12l[?25h[23;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;nagarwal29@instance-1: ~/Project2_AE_red[01;32mnagarwal29@instance-1[00m:[01;34m~/Project2_AE_red[00m$ [7mexit[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit
+[A
+[?2004lexit
+
+Script done on 2022-11-09 23:31:52+00:00 [COMMAND_EXIT_CODE="0"]
+

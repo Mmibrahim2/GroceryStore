@@ -1,0 +1,212 @@
+<GroceryStore>
+  <FoodItem ID = "1">
+    <ItemNumber>1</ItemNumber>
+    <ItemName>Chicken</ItemName>
+    <Category>Meat</Category>
+    <Price>2.99</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "2">
+    <ItemNumber>2</ItemNumber>
+    <ItemName>Beef</ItemName>
+    <Category>Meat</Category>
+    <Price>2.99</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "3">
+    <ItemNumber>3</ItemNumber>
+    <ItemName>Pork</ItemName>
+    <Category>Meat</Category>
+    <Price>2.5</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "4">
+    <ItemNumber>4</ItemNumber>
+    <ItemName>Eggs</ItemName>
+    <Category>Dairy</Category>
+    <Price>1.8</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "5">
+    <ItemNumber>5</ItemNumber>
+    <ItemName>Butter</ItemName>
+    <Category>Dairy</Category>
+    <Price>6.5</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "6">
+    <ItemNumber>6</ItemNumber>
+    <ItemName>Cheese</ItemName>
+    <Category>Dairy</Category>
+    <Price>5.99</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "7">
+    <ItemNumber>7</ItemNumber>
+    <ItemName>Milk</ItemName>
+    <Category>Dairy</Category>
+    <Price>4.59</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "8">
+    <ItemNumber>8</ItemNumber>
+    <ItemName>Yogurt</ItemName>
+    <Category>Dairy</Category>
+    <Price>3.49</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "9">
+    <ItemNumber>9</ItemNumber>
+    <ItemName>Apples</ItemName>
+    <Category>Fruit</Category>
+    <Price>0.99</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "10">
+    <ItemNumber>10</ItemNumber>
+    <ItemName>Bananas</ItemName>
+    <Category>Fruit</Category>
+    <Price>0.39</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "11">
+    <ItemNumber>11</ItemNumber>
+    <ItemName>Strawberries</ItemName>
+    <Category>Fruit</Category>
+    <Price>1.99</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "12">
+    <ItemNumber>12</ItemNumber>
+    <ItemName>Grapes</ItemName>
+    <Category>Fruit</Category>
+    <Price>1.5</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "13">
+    <ItemNumber>13</ItemNumber>
+    <ItemName>Lemons</ItemName>
+    <Category>Fruit</Category>
+    <Price>0.69</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "14">
+    <ItemNumber>14</ItemNumber>
+    <ItemName>Oranges</ItemName>
+    <Category>Fruit</Category>
+    <Price>0.5</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "15">
+    <ItemNumber>15</ItemNumber>
+    <ItemName>Pears</ItemName>
+    <Category>Fruit</Category>
+    <Price>1</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "16">
+    <ItemNumber>16</ItemNumber>
+    <ItemName>Broccoli</ItemName>
+    <Category>Vegetable</Category>
+    <Price>0.99</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "17">
+    <ItemNumber>17</ItemNumber>
+    <ItemName>Cauliflower</ItemName>
+    <Category>Vegetable</Category>
+    <Price>0.99</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "18">
+    <ItemNumber>18</ItemNumber>
+    <ItemName>Arugula</ItemName>
+    <Category>Vegetable</Category>
+    <Price>2.5</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "19">
+    <ItemNumber>19</ItemNumber>
+    <ItemName>Carrots</ItemName>
+    <Category>Vegetable</Category>
+    <Price>0.65</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "20">
+    <ItemNumber>20</ItemNumber>
+    <ItemName>Ginger</ItemName>
+    <Category>Vegetable</Category>
+    <Price>3.99</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "21">
+    <ItemNumber>21</ItemNumber>
+    <ItemName>Mushrooms</ItemName>
+    <Category>Vegetable</Category>
+    <Price>3</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "22">
+    <ItemNumber>22</ItemNumber>
+    <ItemName>Onions</ItemName>
+    <Category>Vegetable</Category>
+    <Price>0.89</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "23">
+    <ItemNumber>23</ItemNumber>
+    <ItemName>Potatoes</ItemName>
+    <Category>Vegetable</Category>
+    <Price>0.69</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "24">
+    <ItemNumber>24</ItemNumber>
+    <ItemName>Spinach</ItemName>
+    <Category>Vegetable</Category>
+    <Price>4.5</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "25">
+    <ItemNumber>25</ItemNumber>
+    <ItemName>Tomatoes</ItemName>
+    <Category>Vegetable</Category>
+    <Price>2</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "26">
+    <ItemNumber>26</ItemNumber>
+    <ItemName>Salsa</ItemName>
+    <Category>Pantry</Category>
+    <Price>1.69</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "27">
+    <ItemNumber>27</ItemNumber>
+    <ItemName>Vinegar</ItemName>
+    <Category>Pantry</Category>
+    <Price>0.99</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "28">
+    <ItemNumber>28</ItemNumber>
+    <ItemName>Chocolate Chips</ItemName>
+    <Category>Pantry</Category>
+    <Price>2.29</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "29">
+    <ItemNumber>29</ItemNumber>
+    <ItemName>Seltzer Water</ItemName>
+    <Category>Pantry</Category>
+    <Price>2.99</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+  <FoodItem ID = "30">
+    <ItemNumber>30</ItemNumber>
+    <ItemName>Pumpkin Seeds</ItemName>
+    <Category>Pantry</Category>
+    <Price>6.49</Price>
+    <Quantity>0</Quantity>
+  </FoodItem>
+</GroceryStore>
